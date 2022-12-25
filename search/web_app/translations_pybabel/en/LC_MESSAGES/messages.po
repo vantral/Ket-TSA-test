@@ -756,7 +756,7 @@ msgstr "Full text (opens in a new tab)"
 
 
 msgid "corpus_title"
-msgstr "Bystraja Even Corpus"
+msgstr "Ket corpus"
 
 msgid "inputmethod_normal"
 msgstr "normal"
@@ -815,7 +815,7 @@ msgstr "comments"
 msgid "langname_dargwa"
 msgstr "Dargwa"
 
-msgid "langname_english"
+msgid "langname_en"
 msgstr "English"
 
 msgid "langname_english_note"
@@ -862,6 +862,9 @@ msgstr "Kamas"
 
 msgid "langname_kazakh"
 msgstr "Kazakh"
+
+msgid "langname_ket"
+msgstr "Ket"
 
 msgid "langname_komi"
 msgstr "Komi"
@@ -920,7 +923,7 @@ msgstr "ID"
 msgid "langname_romani"
 msgstr "Romani"
 
-msgid "langname_russian"
+msgid "langname_ru"
 msgstr "Russian"
 
 msgid "langname_selkup"

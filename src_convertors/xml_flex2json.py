@@ -180,16 +180,16 @@ class Xml_Flex2JSON(Txt2JSON):
                     if gl.upper() == gl:
                         gl = gl.lower()
                     addedGrammTags.add(gl)
-            # print(list(addedGrammTags), list(tagsAndGlosses))
-            for tag in addedGrammTags:
-                if tag in mainLangCategories:
-                    anaCatName = 'gr.' + mainLangCategories[tag]
-                    if anaCatName not in ana:
-                        ana[anaCatName] = tag
-                    elif type(ana[anaCatName]) == str:
-                        ana[anaCatName] = [ana[anaCatName], tag]
-                    else:
-                        ana[anaCatName].append(tag)
+            # print(list(addedGrammTags), list(tagsAndGlosses), mainLangCategories)
+            # for tag in addedGrammTags:
+            #     if tag in mainLangCategories:
+            #         anaCatName = 'gr.' + mainLangCategories[tag]
+            #         if anaCatName not in ana:
+            #             ana[anaCatName] = tag
+            #         elif type(ana[anaCatName]) == str:
+            #             ana[anaCatName] = [ana[anaCatName], tag]
+            #         else:
+            #             ana[anaCatName].append(tag)
 
     def process_stem(self, stem, stemGloss, glossLang, anaJSON, curGlossList):
         """

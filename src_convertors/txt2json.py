@@ -77,7 +77,8 @@ class Txt2JSON:
             fCorpus = open(os.path.join(self.settingsDir, 'conversion_settings.json'), 'r',
                            encoding='utf-8-sig')
         except IOError:
-            # Obsolete settings file name; I keep it here for backward compatibility
+            # Obsolete settings file name; I keep it here for backward compatibility4
+            print(os.path.abspath(self.settingsDir))
             fCorpus = open(os.path.join(self.settingsDir, 'corpus.json'), 'r',
                            encoding='utf-8-sig')
         localSettings = json.loads(fCorpus.read())

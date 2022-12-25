@@ -23,7 +23,7 @@ buryat	бурятский
 chinese	китайский
 chuvash	чувашский
 dargwa	даргинский
-english	английский
+en	английский
 english_note	английский (комментарии)
 erzya	эрзянский
 estonian	эстонский
@@ -50,7 +50,7 @@ ossetic_digor	дигорский
 ossetic_iron	иронский
 polish	польский
 romani	цыганский
-russian	русский
+ru	русский
 selkup	селькупский
 spanish	испанский
 swedish	шведский

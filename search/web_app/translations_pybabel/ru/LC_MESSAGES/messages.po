@@ -826,7 +826,7 @@ msgstr "комментарии"
 msgid "langname_dargwa"
 msgstr "даргинский"
 
-msgid "langname_english"
+msgid "langname_en"
 msgstr "английский"
 
 msgid "langname_english_note"
@@ -928,7 +928,7 @@ msgstr "ID"
 msgid "langname_romani"
 msgstr "цыганский"
 
-msgid "langname_russian"
+msgid "langname_ru"
 msgstr "русский"
 
 msgid "langname_selkup"

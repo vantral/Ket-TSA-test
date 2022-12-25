@@ -1,1 +1,1 @@
-corpus_title	Bystraja Even Corpus
+corpus_title	Ket corpus

@@ -1,10 +1,12 @@
 {
-  "corpus_name": "even",
+  "corpus_name": "",
   "citation": "The corpus of the Ket language.",
   "input_format": "json",
   "debug": false,
-  "media": true,
+  "media": false,
   "video": true,
+  "language_codes": {"ket": "ket", "ru": "ru", "en": "en"},
+  "json_indent": 2,
   "media_length": 60,
   "max_context_expand": 10,
   "max_distance_filter": 200000,
@@ -21,6 +23,7 @@
     "recplace"
   ],
   "default_values": {"sent_meta_speaker_type": ""},
+  "sentence_meta": [],
   "sentence_meta_values": {
     "speaker_type": ["native", "linguist"]
   },
@@ -31,7 +34,7 @@
   "generate_dictionary": true,
   "fulltext_view_enabled": true,
   "use_nonpersistent_fulltext_id": true,
-  "languages": ["ket", "russian"],
+  "languages": ["ket", "ru", "en"],
   "transliterations": ["original", "cyrillic"],
   "input_methods": ["normal"],
   "interface_languages": [
@@ -418,5 +421,5 @@
     },
     "undefined": {"gr_fields_order": []}
   },
-  "elastic_url":"http://elasticsearch:9200"
+  "elastic_url":"http://127.0.0.1:9200"
 }
