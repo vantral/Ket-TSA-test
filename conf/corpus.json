@@ -1,5 +1,5 @@
 {
-  "corpus_name": "",
+  "corpus_name": "ket",
   "citation": "The corpus of the Ket language.",
   "input_format": "json",
   "debug": false,
@@ -421,5 +421,5 @@
     },
     "undefined": {"gr_fields_order": []}
   },
-  "elastic_url":"http://127.0.0.1:9200"
+  "elastic_url":"http://elasticsearch:9200"
 }
